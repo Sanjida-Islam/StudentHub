@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<item android:id="@+id/nav_student"-->
+        <!--android:title="Student"></item>-->
+
+    <item android:id="@+id/nav_teacher"
+        android:title="Teacher"></item>
+
+    <item android:id="@+id/nav_pdf"
+        android:title="Upload PDF file"></item>
+
+    <item android:id="@+id/nav_notice"
+        android:title="Notice"></item>
+
+    <item android:id="@+id/nav_logout"
+        android:title="Log out"></item>
+</menu>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+    <!--<include-->
+        <!--android:id="@+id/include4"-->
+        <!--layout="@layout/app_bar_home_page"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include4">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Course No:"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/subjectNo"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/Subject"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:text="Select your course, Credit and CGPA : "
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:text="Course"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="Credit"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="Grade"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <Spinner
+                android:id="@+id/title_1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+                android:id="@+id/title_2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_6"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_6"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+            <Spinner
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/CourseTitle"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/credit_7"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/credit"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/grade_7"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:entries="@array/grade"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCheck"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:background="#309b8e"
+            android:text="Calculate CGPA"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

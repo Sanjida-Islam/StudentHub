@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Student Id No"
+            android:inputType="number" />
+
+
+
+
+        <EditText
+            android:id="@+id/batch"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Batch No"
+            android:inputType="number" />
+
+
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Phone Number"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email Address"
+            android:inputType="textEmailAddress" />
+
+
+
+        <EditText
+            android:id="@+id/bg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group (Optional)"
+            android:inputType="textCapCharacters" />
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password (At least 6 digit)"
+            android:inputType="textPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 335 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1254808 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupt ()V 0 0 1 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe putObjectVolatile (Ljava/lang/Object;JLjava/lang/Object;)V 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe putOrderedObject (Ljava/lang/Object;JLjava/lang/Object;)V 33 1 4 0 -1
+ciMethod sun/misc/Unsafe unpark (Ljava/lang/Object;)V 2049 1 256 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 2049 1 5376 0 -1
+ciMethod java/lang/Long valueOf (J)Ljava/lang/Long; 2081 1 5584 0 -1
+ciMethod java/util/concurrent/atomic/AtomicInteger set (I)V 3073 1 13008 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1254808 orig 264 56 173 43 119 0 0 0 0 128 4 207 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 28 153 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 2049 1 37494 0 256
+ciMethod java/util/concurrent/locks/ReentrantLock tryLock ()Z 929 1 13059 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock unlock ()V 2049 1 54542 0 192
+ciMethod java/util/concurrent/locks/ReentrantLock isHeldByCurrentThread ()Z 2065 1 23786 0 0
+ciMethod java/util/Queue poll ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Queue remove (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 2049 1 5377 0 192
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 201 1 4395 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 497 1 8870 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync tryRelease (I)Z 2057 1 5406 0 128
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync isHeldExclusively ()Z 2049 1 25070 0 64
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer <init> ()V 2049 1 12385 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer getState ()I 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2073 1 18425 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2241 1 19521 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2433 161 3072 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 9 1 1091 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2049 1 4131 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 25 1 4144 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer cancelAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 1537 1 3200 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 0 0 1 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z 761 1 1596 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 33 1 4017 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryAcquire (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryRelease (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 209 1 2133 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2057 1 10575 0 128
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2049 1 4131 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 2049 1 11631 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer <init> ()V 2049 1 12385 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2049 1 17362 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread; 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2065 1 7332 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2049 1 1091 0 -1
+ciMethod org/gradle/api/logging/Logger log (Lorg/gradle/api/logging/LogLevel;Ljava/lang/String;[Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod com/google/common/base/Preconditions checkState (ZLjava/lang/Object;)V 2049 1 10812 0 0
+ciMethod com/google/common/base/Preconditions checkNotNull (Ljava/lang/Object;)Ljava/lang/Object; 2065 1 142845 0 64
+ciMethod com/google/common/base/Preconditions checkNotNull (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 1 11002 0 64
+ciMethod java/util/concurrent/ConcurrentLinkedQueue updateHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 2049 1 5171 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue poll ()Ljava/lang/Object; 2049 33 5518 0 448
+ciMethod java/util/concurrent/ConcurrentLinkedQueue casHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)Z 33 1 421 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray checkedByteOffset (I)J 2049 1 5466 0 128
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray byteOffset (I)J 2041 1 5466 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray length ()I 2049 1 28643 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray get (I)Ljava/lang/Object; 2049 1 34947 0 128
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray getRaw (J)Ljava/lang/Object; 2041 1 34969 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray set (ILjava/lang/Object;)V 2065 1 18214 0 160
+ciMethod com/google/common/base/Equivalence equivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 2049 1 13519 0 -1
+ciMethod com/google/common/base/Ticker read ()J 0 0 1 0 -1
+ciMethod com/google/common/base/Ticker systemTicker ()Lcom/google/common/base/Ticker; 2049 1 5379 0 0
+ciMethod java/util/concurrent/locks/LockSupport unpark (Ljava/lang/Thread;)V 2049 1 7015 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue$Node casItem (Ljava/lang/Object;Ljava/lang/Object;)Z 33 1 770 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue$Node lazySetNext (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 33 1 421 0 0
+ciMethod com/google/common/cache/Cache size ()J 0 0 1 0 -1
+ciMethod com/google/common/cache/Cache stats ()Lcom/google/common/cache/CacheStats; 0 0 1 0 -1
+ciMethod com/google/common/cache/CacheBuilder$3 read ()J 1025 1 128 0 0
+ciMethod com/google/common/cache/AbstractCache$StatsCounter recordHits (I)V 0 0 1 0 -1
+ciMethod com/google/common/cache/AbstractCache$StatsCounter recordMisses (I)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ValueReference get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ValueReference isLoading ()Z 0 0 1 0 -1
+ciMethod com/google/common/cache/CacheLoader load (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/CacheLoader reload (Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache unset ()Lcom/google/common/cache/LocalCache$ValueReference; 3073 1 10947 0 0
+ciMethod com/google/common/cache/LocalCache isExpired (Lcom/google/common/cache/LocalCache$ReferenceEntry;J)Z 2049 1 5423 0 -1
+ciMethod com/google/common/cache/LocalCache processPendingNotifications ()V 3081 1217 5505 0 1248
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getValueReference ()Lcom/google/common/cache/LocalCache$ValueReference; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setValueReference (Lcom/google/common/cache/LocalCache$ValueReference;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getNext ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getHash ()I 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$2 poll ()Ljava/lang/Object; 1065 1 133 0 0
+ciMethod com/google/common/cache/RemovalListener onRemoval (Lcom/google/common/cache/RemovalNotification;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$EntryFactory newEntry (Lcom/google/common/cache/LocalCache$Segment;Ljava/lang/Object;ILcom/google/common/cache/LocalCache$ReferenceEntry;)Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment newEntry (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$ReferenceEntry;)Lcom/google/common/cache/LocalCache$ReferenceEntry; 2049 1 5366 0 0
+ciMethod com/google/common/cache/LocalCache$Segment lockedGetOrLoad (Ljava/lang/Object;ILcom/google/common/cache/CacheLoader;)Ljava/lang/Object; 1929 657 5361 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment waitForLoadingValue (Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;Lcom/google/common/cache/LocalCache$ValueReference;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment loadSync (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$LoadingValueReference;Lcom/google/common/cache/CacheLoader;)Ljava/lang/Object; 2049 1 5364 0 0
+ciMethod com/google/common/cache/LocalCache$Segment getAndRecordStats (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$LoadingValueReference;Lcom/google/common/util/concurrent/ListenableFuture;)Ljava/lang/Object; 2041 1 5372 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment drainReferenceQueues ()V 3081 1 5506 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment recordLockedRead (Lcom/google/common/cache/LocalCache$ReferenceEntry;J)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment expireEntries (J)V 3081 1 5505 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment enqueueNotification (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$ValueReference;Lcom/google/common/cache/RemovalCause;)V 1233 1 1716 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment preWriteCleanup (J)V 3073 1 10728 0 0
+ciMethod com/google/common/cache/LocalCache$Segment postWriteCleanup ()V 3097 1 10755 0 0
+ciMethod com/google/common/cache/LocalCache$Segment runLockedCleanup (J)V 3073 1 5506 0 3040
+ciMethod com/google/common/cache/LocalCache$Segment runUnlockedCleanup ()V 3097 1 10781 0 0
+ciMethod org/gradle/api/internal/changedetection/state/LoggingEvictionListener onRemoval (Lcom/google/common/cache/RemovalNotification;)V 2049 1 1586 0 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2 17362 orig 264 56 173 43 119 0 0 0 0 184 112 11 22 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 145 22 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/base/Preconditions checkNotNull (Ljava/lang/Object;)Ljava/lang/Object; 2 142845 orig 264 56 173 43 119 0 0 0 0 0 106 34 22 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 217 103 17 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 6 0x10007 0x22cfc 0x30 0x0 0x80002 0x0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer <init> ()V 2 12385 orig 264 56 173 43 119 0 0 0 0 160 64 11 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 123 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2f61 oops 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer <init> ()V 2 12385 orig 264 56 173 43 119 0 0 0 0 32 112 11 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 123 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2f61 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2 18425 orig 264 56 173 43 119 0 0 0 0 208 65 11 22 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 177 55 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference <init> ()V 2049 1 5363 0 0
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference <init> (Lcom/google/common/cache/LocalCache$ValueReference;)V 2041 1 5372 0 0
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference set (Ljava/lang/Object;)Z 3073 1 10742 0 -1
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference setException (Ljava/lang/Throwable;)Z 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference fullyFailedFuture (Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/ListenableFuture; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference loadFuture (Ljava/lang/Object;Lcom/google/common/cache/CacheLoader;)Lcom/google/common/util/concurrent/ListenableFuture; 2041 1 5371 0 0
+ciMethod com/google/common/util/concurrent/SettableFuture create ()Lcom/google/common/util/concurrent/SettableFuture; 2041 1 5372 0 0
+ciMethod com/google/common/util/concurrent/SettableFuture <init> ()V 2041 1 5372 0 0
+ciMethod com/google/common/util/concurrent/AbstractFuture <init> ()V 2041 1 5371 0 0
+ciMethod com/google/common/util/concurrent/AbstractFuture$Sync <init> ()V 2049 1 5370 0 0
+ciMethod com/google/common/util/concurrent/ExecutionList <init> ()V 2049 1 5371 0 0
+ciMethod com/google/common/base/Stopwatch createUnstarted ()Lcom/google/common/base/Stopwatch; 2041 1 5372 0 0
+ciMethod com/google/common/base/Stopwatch <init> ()V 2041 1 5371 0 0
+ciMethod com/google/common/base/Stopwatch <init> (Lcom/google/common/base/Ticker;)V 2041 1 5371 0 0
+ciMethod com/google/common/base/Stopwatch start ()Lcom/google/common/base/Stopwatch; 2049 1 5371 0 0
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue poll ()Ljava/lang/Object; 2 5518 orig 264 56 173 43 119 0 0 0 0 232 88 37 22 0 0 0 0 224 2 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 113 164 0 0 9 13 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 30 0 2 0 0 0 152 1 0 0 255 255 255 255 7 0 15 0 0 0 0 0 data 51 0xf0007 0x1331 0xf8 0x2fe 0x160005 0x0 0x197b36a0 0x2fe 0x0 0x0 0x190007 0x0 0xa8 0x2fe 0x1e0007 0x15d 0x88 0x1a1 0x290007 0x44 0x38 0x15d 0x2d0003 0x15d 0x18 0x310005 0x0 0x197b1930 0x1a1 0x0 0x0 0x3d0007 0x1a1 0x50 0x1190 0x430005 0x0 0x197b1930 0x1190 0x0 0x0 0x4a0007 0x1a1 0x38 0x0 0x4d0003 0x0 0xfffffffffffffe98 0x520003 0x1a1 0xfffffffffffffe80 oops 3

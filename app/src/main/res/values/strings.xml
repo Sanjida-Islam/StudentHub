@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Student Hub</string>
+    <string name="title_activity_home_page">Student List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="dep">dep</string>
+    <string name="activity_my_profile">My Profile</string>
+    <string name="activity_update_studentInfo">Update Student Info</string>
+    <string name="activity_change_pass">Change Password</string>
+    <string name="activity_change_email">Change login Email</string>
+    <string name="activity_updateteacher">Update Teacher Info</string>
+    <string name="activity_teacher_info">Teacher Info</string>
+    <string name="activity_add_teacher">Add new teacher</string>
+    <string name="activity_teacher_list">Teacher List</string>
+
+
+    <string name="activity_student_profile">Student Profile</string>
+
+    <string name="activity_pdflist">PDF files</string>
+    <string name="activity_notice_list">Notice</string>
+    <string name="activity_new_notice">Add notice</string>
+    <string name="activity_calculator">CGPA Calculator</string>
+    <string name="admin_notice">Notice</string>
+
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="Subject">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+    </string-array>
+
+    <string-array name="CourseTitle">
+        <item> Course </item>
+        <item> Algorithm </item>
+        <item> Database </item>
+        <item> Compiler </item>
+    </string-array>
+
+    <string-array name="credit">
+        <item> 0.00 </item>
+        <item> 1.5 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+    </string-array>
+
+    <string-array name="grade">
+        <item> 0.00 </item>
+        <item> 4.00 </item>
+        <item> 3.75 </item>
+        <item> 3.50 </item>
+        <item> 3.25 </item>
+        <item> 3.00 </item>
+        <item> 2.75 </item>
+        <item> 2.50 </item>
+        <item> 2.25 </item>
+        <item> 2.00 </item>
+    </string-array>
+
+</resources>

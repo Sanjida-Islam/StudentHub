@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Student"></item>
+
+    <item android:id="@+id/nav_notice"
+        android:title="Notice"></item>
+
+    <!--<item android:id="@+id/nav_chatroom"-->
+        <!--android:title="Chat Room"></item>-->
+
+    <item android:id="@+id/nav_teacherinfo"
+        android:title="Teacher Info"></item>
+
+    <item android:id="@+id/nav_pdf"
+        android:title="PDF"></item>
+
+    <item android:id="@+id/nav_calculator"
+        android:title="CGPA Calculator"></item>
+
+    <item android:id="@+id/nav_myProfile"
+        android:title="My Profile"></item>
+
+    <item android:id="@+id/nav_Admin_panel"
+        android:title="Admin panel"></item>
+
+    <item android:id="@+id/nav_logout"
+        android:title="Log out"></item>
+
+
+</menu>

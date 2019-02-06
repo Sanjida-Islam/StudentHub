@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.loginpage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DeleteNotice"
+            android:label="@string/admin_notice"
+            android:parentActivityName=".AdminClass.Admin_Home_page"></activity>
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Calculator"
+            android:label="@string/activity_calculator" />
+        <activity android:name=".ChatRoom" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page" /> <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".MyProfile"
+            android:label="@string/activity_my_profile"
+            android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".UpdateProfileInfo"
+            android:label="@string/activity_update_studentInfo"
+            android:parentActivityName=".MyProfile"/>
+        <activity
+            android:name=".UpdatePassword"
+            android:label="@string/activity_change_pass"
+            android:parentActivityName=".MyProfile"/>
+        <activity
+            android:name=".UpdateEmail"
+            android:label="@string/activity_change_email"
+            android:parentActivityName=".MyProfile"/>
+        <activity
+            android:name=".AdminClass.TeacherInfo"
+            android:label="@string/activity_teacher_info"
+            android:parentActivityName=".AdminClass.TeacherListActivity"/>
+        <activity android:name=".AdminClass.Admin_Home_page"
+            android:label="@string/activity_teacher_list"/>
+        <activity
+            android:name=".AdminClass.AdminLogin" />
+        <activity
+            android:name=".AdminClass.AddTeacher"
+            android:label="@string/activity_add_teacher"
+            android:parentActivityName=".AdminClass.Admin_Home_page"/>
+        <activity
+            android:name=".AdminClass.UpdateTeacherInfo"
+            android:label="@string/activity_updateteacher"
+            android:parentActivityName=".AdminClass.Admin_Home_page"/>
+        <activity android:name=".AdminClass.TeacherListActivity"
+            android:label="@string/activity_teacher_list"
+            android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".StudentProfile"
+            android:label="@string/activity_student_profile"
+            android:parentActivityName=".AdminClass.Admin_Home_page" />
+        <activity android:name=".PDF.PdfPost" />
+        <activity
+            android:name=".PDF.PdfView"
+            android:label="@string/activity_pdflist"
+            android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".PDF.PdfShow"
+            android:label="@string/activity_pdflist"
+            android:parentActivityName=".PDF.PdfPost"/>
+        <activity
+            android:name=".Notice.AllNotice"
+            android:label="@string/activity_notice_list" android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".Notice.NewNotice"
+            android:label="@string/activity_new_notice"
+            android:parentActivityName=".Notice.AllNotice"/>
+    </application>
+
+</manifest>
